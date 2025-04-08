@@ -2,12 +2,12 @@ version: '3.8'
 services:
   postgres:
     image: postgres:15
-    container_name: postgres_manytomany
+    container_name: postgres_relacionamento
     restart: always
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
-      POSTGRES_DB: bd_jpa_manytomany
+      POSTGRES_DB: bd_jpa_relacionamento
     ports:
       - "5432:5432"
     volumes:
