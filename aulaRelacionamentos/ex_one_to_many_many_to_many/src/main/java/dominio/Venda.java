@@ -1,4 +1,7 @@
+@Entity
 public class Venda {
+    
+    @Id
     private Long Id;
     private double valorTotal;
     private List<Poduto> produtos;

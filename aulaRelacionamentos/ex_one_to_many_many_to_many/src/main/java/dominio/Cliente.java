@@ -1,4 +1,7 @@
+@Entity
 public class Cliente {
+    
+    @Id
     private Long Id;
     private String nome;
     private List<Venda> vendas;

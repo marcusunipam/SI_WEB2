@@ -1,4 +1,7 @@
+@Entity
 public class Produto {
+    
+    @Id
     private Long Id;
     private String nome;
     private double preco;
